@@ -30,7 +30,7 @@ def bop(bot, update):
 
 
 def main():
-    updater = Updater('1289242052:AAHYzJiJUL6WQ9HgHACHLm2YgeTlyAyVxGM', use_context = True)
+    updater = Updater('ENTER YOUR API HERE', use_context = True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('bop', bop))
     updater.start_polling()
