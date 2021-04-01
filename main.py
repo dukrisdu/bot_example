@@ -20,7 +20,7 @@ import os
 # and link them together with a Queue.
 
 # Creating an Updater object
-updater = Updater(token='1289242052:AAHYzJiJUL6WQ9HgHACHLm2YgeTlyAyVxGM', use_context = True)
+updater = Updater(token='ENTER YOUR API HERE', use_context = True)
 
 # Introducing locally Dispatcher used by my Updater. 
 # Doing so for quicker access to the Dispatcher. 
